@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    text-align: center;    
+    grid-template-areas: 
+    "aa aa aa"
+    "bb cc cc"
+    "dd dd dd"
+
+}
+.o{
+    align-content: center;
+    height: 60px;
+}
+.so1{
+    grid-area: aa;
+    background-color: rgb(251, 251, 121);
+}
+.so2{
+    grid-area: bb;
+    background-color: rgb(155, 125, 74);
+}
+.so3{
+    grid-area: cc;
+    background-color: rgb(245, 200, 216);
+}
+.so4{
+    color: white;
+    grid-area: dd;
+    background-color: rgb(92, 63, 17);
+}
